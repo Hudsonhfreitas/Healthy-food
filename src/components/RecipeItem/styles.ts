@@ -40,4 +40,10 @@ export const Button = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: filter 0.3s;
+
+    &:hover {
+        filter: brightness(0.95)
+    }
 `

@@ -1,14 +1,14 @@
 import { Header } from '../../components/Header';
-import { Hero } from '../../components/Hero';
-import { Recipes } from '../../components/Recipes';
+import { HeroSection } from '../../components/HeroSection';
+import { RecipesSection } from '../../components/RecipesSection';
 
 export function Home() {
     return (
         <>
             <Header />
             <main>
-                <Hero />
-                <Recipes />
+                <HeroSection />
+                <RecipesSection />
             </main>
         </>
     )

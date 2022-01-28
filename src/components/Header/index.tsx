@@ -11,8 +11,8 @@ export function Header() {
                 <S.NavBar>
                     <ul>
                         <li>
-                            <Link to='' duration={300} smooth={true}>
-                                healthy
+                            <Link to='recipes' duration={500} smooth={true}>
+                                healthy recipes
                             </Link>
                         </li>
                         <li>

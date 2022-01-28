@@ -7,9 +7,9 @@ import comida4 from '../../assets/comida_4.svg'
 
 import * as S from './styles'
 
-export function Recipes() {
+export function RecipesSection() {
     return (
-        <S.Container>
+        <S.Container id="recipes">
             <S.Content>
                 <h2>Our Best Recipes</h2>
                 <p>

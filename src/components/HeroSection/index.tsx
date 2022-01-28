@@ -2,9 +2,9 @@ import { FiSearch } from 'react-icons/fi'
 
 import * as S from './styles'
 
-export function Hero() {
+export function HeroSection() {
     return (
-        <S.Container>
+        <S.Container >
             <S.Content>
                 <S.LeftArea>
                     <h1>Ready for <br/> Trying a new <br/> recipe?</h1>
