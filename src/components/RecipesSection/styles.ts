@@ -31,5 +31,13 @@ export const RecipesList = styled.ul`
     grid-template-columns: 1fr 1fr;
     gap: 3.6rem;
     flex-wrap: wrap;
+
+    @media (max-width: 860px) {
+        gap: 2rem;
+    }
+
+    @media (max-width: 680px) {
+        grid-template-columns: 1fr;
+    }
 `
 

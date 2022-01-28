@@ -1,4 +1,4 @@
-import { RecipeItem } from '../RecipeItem'
+import { RecipeItem } from './RecipeItem'
 
 import comida1 from '../../assets/comida_1.svg'
 import comida2 from '../../assets/comida_2.svg'

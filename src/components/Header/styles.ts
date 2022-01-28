@@ -8,6 +8,12 @@ export const Container = styled.header`
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 9;
+
+    @media(max-width: 740px) {
+        background: var(--white);
+        box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    }
 `
 
 export const Content = styled.div`
@@ -25,6 +31,9 @@ export const Logo = styled(Link)`
     font-size: 3.2rem;
     font-weight: 700; 
     color: var(--primary);
+    @media(max-width: 740px) {
+        color: var(--primary);
+    }
 `
 
 export const NavBar = styled.nav`
@@ -65,6 +74,10 @@ export const NavBar = styled.nav`
                 }
             }
         }
+    }
+
+    @media(max-width: 740px) {
+        display: none;
     }
 `
 

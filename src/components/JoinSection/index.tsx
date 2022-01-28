@@ -2,7 +2,7 @@ import * as S from './styles'
 
 export function JoinSection() {
     return (
-        <S.Container>
+        <S.Container id="join">
             <S.Content>
                 <S.LeftArea>
                     <h2>Join our membership</h2>

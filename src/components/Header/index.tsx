@@ -16,12 +16,12 @@ export function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link to='' duration={300} smooth={true}>
+                            <Link to='blog' duration={500} smooth={true}>
                                 blog
                             </Link>
                         </li>
                         <li>
-                            <Link to='' duration={300} smooth={true}>
+                            <Link to='join' duration={500} smooth={true}>
                                 join
                             </Link>
                         </li>

@@ -31,6 +31,26 @@ export const Container = styled.li`
             color: var(--text-primary);
         }
     }
+
+    @media (max-width: 860px) {
+        height: 18rem;
+
+        img {
+            max-width: 165px;
+        }
+        div {
+            padding: 2rem 2rem;
+            h3 {
+                font-size: 2rem;
+            }
+       }
+    }
+
+    @media (max-width: 680px) {
+        br {
+            display: none
+    }
+
 `
 
 export const Button = styled(Link)`
@@ -51,5 +71,9 @@ export const Button = styled(Link)`
 
     &:hover {
         filter: brightness(0.95)
+    }
+
+    @media (max-width: 860px) {
+        height: 4rem;
     }
 `

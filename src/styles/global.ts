@@ -21,6 +21,9 @@ html {
     @media screen and (max-width: 1200px) {
         font-size: 55.5%;
     }
+    @media screen and (max-width: 950px) {
+        font-size: 50%;
+    }
 }
 
 body, input, textarea, button {
@@ -39,10 +42,19 @@ a {
 
 h1 {
     font-size: 4.8rem;
+    line-height: 140%;
+
+    @media (max-width: 850px) {
+        font-size: 3.4rem
+    }
 }
 
 h2 {
     font-size: 3.2rem;
+
+    @media (max-width: 850px) {
+        font-size: 2rem
+    }
 }
 
 h3 {

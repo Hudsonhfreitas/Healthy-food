@@ -3,32 +3,48 @@ import styled from "styled-components";
 import IllustrationImg from '../../assets/Illustration.svg'
 
 export const Container = styled.section`
-    height: 100vh;
-    max-height: 768px;
     background: var(--white);
-    padding-bottom: 2.5rem;
 `
 
 export const Content = styled.div`
+    position: relative;
     max-width: 1520px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 19rem 2rem;
     height: 100%;
-    background: url(${IllustrationImg}) right top no-repeat;
-    background-size: contain;
 
     display: flex;
     align-items: center;
 
     h1 {
         color: var(--text-primary);
-        line-height: 7rem;
+    }
+`
+export const LeftArea = styled.div`
+    width: 100%;
+    max-width: 41rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 820px) {
+        max-width: 30rem;
     }
 `
 
-export const LeftArea = styled.div`
+export const Image = styled.div`
+    height: 95%;
     width: 100%;
-    max-width: 41.2rem;
+    background: url(${IllustrationImg}) right top no-repeat ;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    @media (max-width: 820px) {
+        width: 100%;
+        height: 100%;
+        filter: blur(5px);
+    }
 `
 
 export const Search = styled.div`

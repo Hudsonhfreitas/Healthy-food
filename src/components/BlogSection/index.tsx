@@ -14,7 +14,7 @@ import avatar4 from '../../assets/avatar4.svg';
 
 export function BlogSection() {
     return (
-        <S.Container>
+        <S.Container id="blog">
             <S.Content>
                 <h2>Read Our Blog</h2>
                 <p>Far far away, behind the word mountains,  far from the countries <br/>
