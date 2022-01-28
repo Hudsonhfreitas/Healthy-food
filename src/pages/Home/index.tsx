@@ -1,4 +1,5 @@
 import { BlogSection } from '../../components/BlogSection';
+import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { HeroSection } from '../../components/HeroSection';
 import { JoinSection } from '../../components/JoinSection';
@@ -16,6 +17,7 @@ export function Home() {
                 <BlogSection />
                 <JoinSection />
             </main>
+            <Footer />
         </>
     )
 }

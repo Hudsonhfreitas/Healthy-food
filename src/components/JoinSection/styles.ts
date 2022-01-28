@@ -22,6 +22,7 @@ export const Content = styled.div`
 export const LeftArea = styled.div`
     width: 100%;
     max-width: 454px;
+    margin-left: 4.8rem;
     h2 {
         color: var(--text-primary)
     }
