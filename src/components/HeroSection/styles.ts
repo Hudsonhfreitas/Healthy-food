@@ -12,12 +12,27 @@ export const Content = styled.div`
     margin: 0 auto;
     padding: 19rem 2rem;
     height: 100%;
+    background: url(${IllustrationImg}) right top no-repeat ;
+    background-size: contain;
 
     display: flex;
     align-items: center;
 
     h1 {
         color: var(--text-primary);
+    }
+
+    @media(max-width: 770px) {
+        background-position: 170%;
+    }
+
+    @media(max-width: 670px) {
+        background-position: 290%;
+    }
+
+    @media(max-width: 630px) {
+        background-position: initial;
+        background-size: cover;
     }
 `
 export const LeftArea = styled.div`
@@ -29,21 +44,13 @@ export const LeftArea = styled.div`
     @media (max-width: 820px) {
         max-width: 30rem;
     }
-`
 
-export const Image = styled.div`
-    height: 95%;
-    width: 100%;
-    background: url(${IllustrationImg}) right top no-repeat ;
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    @media (max-width: 820px) {
-        width: 100%;
-        height: 100%;
-        filter: blur(5px);
+    @media(max-width: 630px) {
+        padding: 2rem;
+        background: rgba(255,255,255, 0.2);
+        max-width: 85%;
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
     }
 `
 

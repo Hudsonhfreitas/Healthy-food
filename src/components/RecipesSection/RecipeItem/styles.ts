@@ -17,9 +17,7 @@ export const Container = styled.li`
     }
 
     img {
-        width: 100%;
         height: 100%;
-        max-width: 253px;
     }
 
     div {
@@ -27,6 +25,8 @@ export const Container = styled.li`
         text-align: left;
         width: 100%;
         height: 100%;
+        flex: 1 0 0;
+        
         h3 {
             color: var(--text-primary);
         }
@@ -35,9 +35,6 @@ export const Container = styled.li`
     @media (max-width: 860px) {
         height: 18rem;
 
-        img {
-            max-width: 165px;
-        }
         div {
             padding: 2rem 2rem;
             h3 {
@@ -49,6 +46,7 @@ export const Container = styled.li`
     @media (max-width: 680px) {
         br {
             display: none
+        }
     }
 
 `

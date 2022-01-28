@@ -15,8 +15,6 @@ export function HeroSection() {
                         </button>
                     </S.Search>
                 </S.LeftArea>
-                <S.Image>
-                </S.Image>
             </S.Content>
         </S.Container>
     )
