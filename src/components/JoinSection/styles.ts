@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
-import IllustrationImg from '../../assets/Illustration.svg'
+import joinImage from '../../assets/joinImage.svg'
 
 export const Container = styled.section`
     height: 100vh;
-    max-height: 768px;
-    background: var(--white);
-    padding-bottom: 2.5rem;
+    max-height: 672px;
 `
 
 export const Content = styled.div`
@@ -14,21 +12,19 @@ export const Content = styled.div`
     margin: 0 auto;
     padding: 0 2rem;
     height: 100%;
-    background: url(${IllustrationImg}) right top no-repeat;
-    background-size: contain;
+    background: url(${joinImage}) right no-repeat;
 
     display: flex;
     align-items: center;
-
-    h1 {
-        color: var(--text-primary);
-        line-height: 7rem;
-    }
+    justify-content: left;
 `
 
 export const LeftArea = styled.div`
     width: 100%;
-    max-width: 41.2rem;
+    max-width: 454px;
+    h2 {
+        color: var(--text-primary)
+    }
 `
 
 export const Search = styled.div`
@@ -47,22 +43,19 @@ export const Search = styled.div`
         }
     }
     button {
-        width: 5.2rem;
+        width: 9.3rem;
         height: 5.2rem;
         background: var(--primary);
         border: none;
         border-radius: 5px;
+        color: var(--white);
+        box-shadow: 0 5px 10px rgba(186, 220, 88, .5);
 
         display: flex;
         align-items: center;
         justify-content: center;
 
         transition: filter .3s;
-        svg {
-            width: 1.8rem;
-            height: 1.8rem;
-            color: var(--white);
-        }
 
         &:hover {
             filter: brightness(.95)

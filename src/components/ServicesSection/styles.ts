@@ -8,7 +8,7 @@ export const Container = styled.section`
 `
 
 export const Content = styled.div`
-    max-width: 1320px;
+    max-width: 1520px;
     margin: 0 auto;
     background: url(${Cooking}) left no-repeat;
     padding: 13.6rem 2rem;
