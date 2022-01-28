@@ -43,6 +43,8 @@ export const Button = styled(Link)`
     margin-top: 4.8rem;
     font-size: 1.6rem;
     border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(186, 220, 88, .5);
     
     display: flex;
     align-items: center;

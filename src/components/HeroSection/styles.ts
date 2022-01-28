@@ -3,8 +3,9 @@ import styled from "styled-components";
 import IllustrationImg from '../../assets/Illustration.svg'
 
 export const Container = styled.section`
-    height: calc(95vh - 10.3rem);
+    height: calc(100vh - 10.3rem);
     background: var(--white);
+    padding-bottom: 2.5rem;
 `
 
 export const Content = styled.div`
