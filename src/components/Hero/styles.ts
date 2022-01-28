@@ -4,7 +4,7 @@ import IllustrationImg from '../../assets/Illustration.svg'
 
 export const Container = styled.section`
     height: calc(95vh - 10.3rem);
-    background-size: content;
+    background: var(--white);
 `
 
 export const Content = styled.div`
@@ -12,7 +12,6 @@ export const Content = styled.div`
     margin: 0 auto;
     padding: 0 2rem;
     height: 100%;
-    
     background: url(${IllustrationImg}) right top no-repeat;
 
     display: flex;
