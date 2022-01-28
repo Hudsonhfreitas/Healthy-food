@@ -26,7 +26,7 @@ export function Header() {
                             </Link>
                         </li>
                     </ul>
-                    <S.RegisterButton>
+                    <S.RegisterButton as='a' href="/register">
                         register
                     </S.RegisterButton>
                 </S.NavBar>

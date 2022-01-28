@@ -11,7 +11,7 @@ export const Container = styled.header`
 `
 
 export const Content = styled.div`
-    max-width: 1120px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0 2rem;
     height: 100%;
@@ -43,6 +43,26 @@ export const NavBar = styled.nav`
                 text-transform: uppercase;
                 font-weight: 700;
                 color: var(--white);
+                cursor: pointer;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    width: 100%;
+                    height: 2px;
+                    background: var(--white);
+                    position: absolute;
+                    left: 0;
+                    bottom: -3px;
+                    transition: all .3s;
+                    opacity: 0;
+                }
+
+                &:hover {
+                    &:after {
+                        opacity: 1;
+                    }
+                }
             }
         }
     }
