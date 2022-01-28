@@ -13,6 +13,7 @@ export const Content = styled.div`
     padding: 0 2rem;
     height: 100%;
     background: url(${IllustrationImg}) right top no-repeat;
+    background-size: contain;
 
     display: flex;
     align-items: center;

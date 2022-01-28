@@ -10,6 +10,12 @@ export const Container = styled.li`
     display: flex;
     align-items: center;
 
+    transition: transform .3s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
     img {
         width: 100%;
         height: 100%;

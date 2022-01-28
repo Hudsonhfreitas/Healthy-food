@@ -19,16 +19,16 @@ export function RecipesSection() {
                 </p>
                 <S.RecipesList>
                    <RecipeItem imageSrc={comida1}>
-                       Broccoli Salad with Bacon
+                       Broccoli Salad <br/> with Bacon
                    </RecipeItem> 
                    <RecipeItem imageSrc={comida2}>
-                       Classic Beef Burgers
+                       Classic Beef <br/> Burgers
                    </RecipeItem> 
                    <RecipeItem imageSrc={comida3}>
-                       Classic Beef Burgers
+                       Classic Potato <br /> Salad
                    </RecipeItem> 
                    <RecipeItem imageSrc={comida4}>
-                       Classic Beef Burgers
+                       Cherry Cobbler <br /> on the Grill
                    </RecipeItem> 
                 </S.RecipesList>
             </S.Content>
