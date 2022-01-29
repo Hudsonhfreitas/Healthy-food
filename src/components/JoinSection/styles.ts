@@ -24,9 +24,6 @@ export const Content = styled.div`
 
     @media (max-width: 670px) {
         background-position: initial;
-    }
-
-    @media (max-width: 670px) {
         justify-content: center;
     }
 `

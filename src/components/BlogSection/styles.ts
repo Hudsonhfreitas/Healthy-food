@@ -8,7 +8,7 @@ export const Container = styled.section`
 export const Content = styled.div`
     width: 100%;
     max-width: 1520px;
-    padding: 2rem 4rem 4.8rem 4.8rem;
+    padding: 4.8rem 4rem 4.8rem 4.8rem;
     margin: 0 auto;
     text-align: center;
     h2 {
@@ -19,5 +19,9 @@ export const Content = styled.div`
         color: var(--text-secondary);
         margin-top: 1.6rem;
         line-height: 2.7rem;
+    }
+
+    @media (max-width: 430px) {
+        padding: 4.8rem 0rem 4.8rem 2rem;
     }
 `

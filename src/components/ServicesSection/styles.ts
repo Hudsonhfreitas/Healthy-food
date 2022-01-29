@@ -26,10 +26,11 @@ export const Content = styled.div`
 
     @media (max-width: 665px) {
         height: 100%;
-        padding: 0 2rem;
+        padding: 0 0 0 2rem;
         background-size: cover;
         background-position: initial;
     }
+    
 
 `
 
@@ -54,9 +55,8 @@ export const TextContainer = styled.div`
 
     @media (max-width: 665px) {
         background: var(--white);
-        padding: 13rem 0 13rem 2rem;
+        padding: 4.8rem 2rem;
         max-width: 35rem;
-        transform: translateX(2rem);
         display: flex;
         flex-direction: column;
         align-items: center;
