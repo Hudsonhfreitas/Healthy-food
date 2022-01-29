@@ -15,6 +15,22 @@ export const Content = styled.div`
     
     display: flex;
     justify-content: right;
+
+    @media (max-width: 870px) {
+        background-size: contain;
+    }
+
+    @media (max-width: 780px) {
+        background-position: -50%;
+    }
+
+    @media (max-width: 665px) {
+        height: 100%;
+        padding: 0 2rem;
+        background-size: cover;
+        background-position: initial;
+    }
+
 `
 
 export const TextContainer = styled.div`
@@ -30,6 +46,21 @@ export const TextContainer = styled.div`
         color: var(--text-secondary);
         margin-top: 3.2rem;
         line-height: 2.7rem;
+    }
+
+    @media (max-width: 1030px) {
+        margin-right: 0;
+    }
+
+    @media (max-width: 665px) {
+        background: var(--white);
+        padding: 13rem 0 13rem 2rem;
+        max-width: 35rem;
+        transform: translateX(2rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
 `
@@ -55,4 +86,5 @@ export const Button = styled(Link)`
     &:hover {
         filter: brightness(0.95)
     }
+
 `
