@@ -26,6 +26,12 @@ export const Content = styled.div`
         background-position: 170%;
     }
 
+    @media(max-width: 630px) {
+        height: calc(80vh - 7.3rem);
+        padding: 0;
+        justify-content: center
+    }
+
     @media(max-width: 670px) {
         background-position: 290%;
     }

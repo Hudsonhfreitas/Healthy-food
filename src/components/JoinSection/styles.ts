@@ -12,19 +12,42 @@ export const Content = styled.div`
     margin: 0 auto;
     padding: 0 2rem;
     height: 100%;
-    background: url(${joinImage}) right no-repeat;
+    background: url(${joinImage}) right top no-repeat;
 
     display: flex;
     align-items: center;
     justify-content: left;
+
+    @media (max-width: 1070px) {
+        background-position: 125%;
+    }
+
+    @media (max-width: 670px) {
+        background-position: initial;
+    }
+
+    @media (max-width: 670px) {
+        justify-content: center;
+    }
 `
 
 export const LeftArea = styled.div`
     width: 100%;
-    max-width: 454px;
+    max-width: 45.4rem;
     margin-left: 4.8rem;
     h2 {
         color: var(--text-primary)
+    }
+    @media (max-width: 1070px) {
+        max-width: 38.4rem;
+    }
+
+    @media (max-width: 890px) {
+        padding: 2rem;
+        background: rgba(255,255,255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        margin-left: 0;
     }
 `
 

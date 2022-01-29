@@ -10,9 +10,10 @@ export const Container = styled.header`
     left: 0;
     z-index: 9;
 
-    @media(max-width: 740px) {
+    @media(max-width: 630px) {
         background: var(--white);
         box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+        height: 7.3rem;
     }
 `
 
@@ -31,8 +32,10 @@ export const Logo = styled(Link)`
     font-size: 3.2rem;
     font-weight: 700; 
     color: var(--primary);
+
     @media(max-width: 740px) {
         color: var(--primary);
+        font-size: 2.4rem;
     }
 `
 
@@ -76,7 +79,7 @@ export const NavBar = styled.nav`
         }
     }
 
-    @media(max-width: 740px) {
+    @media(max-width: 630px) {
         display: none;
     }
 `
@@ -97,3 +100,16 @@ export const RegisterButton = styled.button`
         color: var(--white);
     }
 `
+
+export const Toggle = styled.button`
+    padding: 1rem;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    color: var(--primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+

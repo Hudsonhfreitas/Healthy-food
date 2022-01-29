@@ -19,6 +19,11 @@ export const Content = styled.div`
         font-size: 1.6rem;
         color: var(--text-primary);
     }
+
+    @media (max-width: 620px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 
 export const FooterNav = styled.nav`
@@ -30,4 +35,9 @@ export const FooterNav = styled.nav`
             margin-left: 3.2rem;
         }
     }
+
+    @media (max-width: 620px) {
+        margin-top: 2rem;
+    }
+    
 `
