@@ -31,6 +31,20 @@ body, input, textarea, button {
       font-weight: 400;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;     
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #369e5f;    
+  border-radius: 20px;       
+}
+
+
 button {
     cursor: pointer;
 }

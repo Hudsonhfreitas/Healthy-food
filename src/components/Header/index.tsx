@@ -5,11 +5,20 @@ import { useMediaQuery } from 'react-responsive';
 
 import {GiHamburgerMenu} from 'react-icons/gi';
 
-export function Header() {
+interface HeaderProps {
+    isMenuOpen: boolean;
+    setIsMenuOpen(isMenuOpen: boolean): void;
+}
+
+export function Header({setIsMenuOpen, isMenuOpen}: HeaderProps) {
 
     const isTabletMobile = useMediaQuery({
         query: '(max-width: 630px)'
       })
+
+    function handleMenu() {
+        setIsMenuOpen(!isMenuOpen)
+    }
 
     return (
         <S.Container>
@@ -19,7 +28,7 @@ export function Header() {
                 </S.Logo>
                 {
                     isTabletMobile ? 
-                    <S.Toggle>
+                    <S.Toggle onClick={handleMenu}>
                         <GiHamburgerMenu />
                     </S.Toggle>
                     :

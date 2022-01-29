@@ -25,9 +25,9 @@ export default function SliderBlog({ children }: SliderBlogProps) {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: isMobile ? 1.2 : isTabletMobile ? 1.8 : isSmallDesktop ? 2.5 :  3.2,
+    slidesToShow: isMobile ? 1.5 : isTabletMobile ? 1.8 : isSmallDesktop ? 2.5 :  3.2,
     slidesToScroll: 1,
-    arrows: isMobile? false : true,
+    arrows: isTabletMobile? false : true,
   };
   return (
     <S.SliderContainer {...settings}>

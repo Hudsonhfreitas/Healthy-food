@@ -10,7 +10,7 @@ export const SliderContainer = styled(Slider)`
             height: 110%;
             background: linear-gradient(to right , rgba(250, 250, 252, 0) ,rgba(250,250,252,1) 70%);
             position: absolute;
-            z-index: 999;
+            z-index: 98;
             top: 0;
             right: -0.5rem;
         }
@@ -20,7 +20,7 @@ export const SliderContainer = styled(Slider)`
             position: relative;
             font-size: 2rem;
             color: var(--primary);
-            z-index: 999;
+            z-index: 98;
         }
 
     }
