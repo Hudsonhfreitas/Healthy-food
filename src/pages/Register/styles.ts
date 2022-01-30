@@ -38,9 +38,10 @@ export const Content = styled.div`
         input, select {
             border: none;
             border-radius: 2px;
-            padding: .3rem;
+            height: 3.5rem;
             border-bottom: 1px solid var(--text-secondary);
             outline: none;
+            background: transparent;
         }
 
         label {
