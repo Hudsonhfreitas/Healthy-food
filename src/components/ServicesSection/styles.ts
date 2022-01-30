@@ -28,7 +28,7 @@ export const Content = styled.div`
         height: 100%;
         padding: 0 0 0 2rem;
         background-size: cover;
-        background-position: initial;
+        background-position: left;
     }
     
 
