@@ -33,6 +33,7 @@ export const Content = styled.div`
             font-size: 1.6rem;
             color: var(--text-secondary);
             width: 100%;
+            text-align: left;
         }
 
         input, select {
@@ -63,7 +64,7 @@ export const Content = styled.div`
     }
     @media (max-width: 480px) {
         form {
-            padding: 4rem 6rem;
+            padding: 2rem 4rem;
         }
     }
 `
