@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+Healthy Food é uma aplicação feita com React, TypeScript, Styled-components; Para o consumo da API ViaCEP foi utilizado Axios.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 🔗 Api consumida
 
-In the project directory, you can run:
+[Via CEP](https://viacep.com.br/)
 
-### `npm start`
+## 🧑‍💻 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Typescript
+- React  
+- Styled-components
+- React-router-dom
+- React-responsive
+- Axios
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🍐 Instalando `<Healthy-Food>`
 
-### `npm test`
+Para instalar o `<Healthy-Food>`, siga estas etapas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Caso não possua o Yarn, instale o Node.js em seu site oficial:
 
-### `npm run build`
+[Node.js](https://nodejs.org/en/download/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+e:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+<npm install --global yarn>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone o projeto:
+```
+<git clone https://github.com/Hudsonhfreitas/Healthy-Food.git>
+```
 
-### `npm run eject`
+Em seguida, adicione as bibliotecas e dependências necessárias:
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<yarn install>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🥑 Usando `<Healthy-Food>`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para usar `<Healthy-Food>`:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+<yarn dev>
+```
 
-## Learn More
+Voilà!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Colaboradores
+
+Seguintes pessoas contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hudsonhfreitas">
+        <img src="https://avatars.githubusercontent.com/u/79869120?v=4" width="100px;" alt="Foto da Hudson no GitHub"/><br>
+        <sub>
+          <b>Hudson Henrique de Freitas</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+[⬆ Voltar ao topo](#healthy-food)<br>
+
+```
