@@ -59,7 +59,7 @@ Seguintes pessoas contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/hudsonhfreitas">
-        <img src="https://avatars.githubusercontent.com/u/79869120?v=4" width="100px;" alt="Foto da Hudson no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/65768361?v=4" width="100px;" alt="Foto da Hudson no GitHub"/><br>
         <sub>
           <b>Hudson Henrique de Freitas</b>
         </sub>
