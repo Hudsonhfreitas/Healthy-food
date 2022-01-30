@@ -5,6 +5,10 @@ import joinImage from '../../assets/joinImage.svg'
 export const Container = styled.section`
     height: 100vh;
     max-height: 672px;
+
+    @media (max-width: 670px) {
+        max-height: 505px;
+    }
 `
 
 export const Content = styled.div`
@@ -25,6 +29,7 @@ export const Content = styled.div`
     @media (max-width: 670px) {
         background-position: initial;
         justify-content: center;
+        
     }
 `
 

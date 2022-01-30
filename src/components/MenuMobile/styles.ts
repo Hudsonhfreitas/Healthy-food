@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background: var(--white);
-    width: 60vw;
+    box-shadow: -10px 5px 25px rgba(0,0,0, 0.3);
+    padding: 0 2rem;
+    width: 70vw;
     height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 99;
-    box-shadow: -10px 5px 25px rgba(0,0,0, 0.3);
 
     display: flex;
     align-items: center;
@@ -31,7 +32,7 @@ export const NavBar = styled.nav`
             }
                 
             a {
-                font-size: 2.6rem;
+                font-size: 2.4rem;
                 text-transform: uppercase;
                 font-weight: 700;
                 color: var(--primary);
@@ -65,7 +66,7 @@ export const RegisterButton = styled.button`
     background: var(--primary);
     border: none;
     padding: 1.6rem 2.5rem;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     color: var(--white);
