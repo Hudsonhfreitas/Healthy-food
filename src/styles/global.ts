@@ -79,5 +79,9 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+input[type='date'], input[type='text'], select {
+    -webkit-appearance: none;
+}
+
 
 `
