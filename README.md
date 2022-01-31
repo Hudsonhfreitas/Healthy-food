@@ -1,6 +1,6 @@
 Healthy Food é uma aplicação feita com React, TypeScript, Styled-components; Para o consumo da API ViaCEP foi utilizado Axios.
 
-## Aplicação: www.healthy-food-teal.vercel.app
+## Aplicação: https://healthy-food-teal.vercel.app/
 
 ## 🔗 Api consumida
 
@@ -45,7 +45,7 @@ Em seguida, adicione as bibliotecas e dependências necessárias:
 Para usar `<Healthy-Food>`:
 
 ```
-<yarn dev>
+<yarn start>
 ```
 
 Voilà!
